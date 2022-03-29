@@ -1,0 +1,31 @@
+{
+  "name": "webflowconcept",
+  "version": "1.0.0",
+  "description": "A hosting solution website made as a concept for a college assignment.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandong04/WebFlowConcept.git"
+  },
+  "keywords": [
+    "nodejs",
+    "website",
+    "webflow",
+    "concept",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "Brandon G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandong04/WebFlowConcept/issues"
+  },
+  "homepage": "https://github.com/Brandong04/WebFlowConcept#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
