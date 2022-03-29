@@ -1,0 +1,18 @@
+/* HTML Defaults */
+html {
+	font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navigation */
+.navbar-brand {
+	font-weight: 400;
+	font-size: 27px !important;
+}
+
+.navbar-brand span {
+	font-weight: 700;
+}
+
+.nav-link {
+	font-weight: 700;
+}
