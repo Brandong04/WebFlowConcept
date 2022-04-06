@@ -55,7 +55,9 @@ html {
 }
 
 .priced-btn {
-	background-color: #5086f2;
+	margin-top: 10px;
+	margin-left: 17px;
+	background-color: #1f4170;
 	border: none;
 	border-radius: 10px;
 	color: white;
@@ -65,5 +67,19 @@ html {
 	font-weight: 500;
 	font-size: 17px;
 	border-bottom: 8px solid;
-	border-color: #3b68c1;
+	border-color: #162d4d;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.priced-btn:hover {
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	background-color: #1f4170e8;
+	border-color: #162d4d75;
+}
+
+/* Pricing Section */
+.pricing-heading {
+	text-align: center;
+	margin: 150px 0px 150px 0px;
+	font-weight: 700;
 }
