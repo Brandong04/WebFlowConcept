@@ -17,6 +17,27 @@ html {
 	font-weight: 500;
 }
 
+.nav-start-btn {
+	background-color: #5086f2;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 4px 18px 4px 18px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+	border-bottom: 7px solid;
+	border-color: #3b68c1;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.nav-start-btn:hover {
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+	background-color: #6090f0;
+	border-color: #4871c2;
+}
+
 /* Hero Section */
 .hero-container {
 	margin-top: 130px;
@@ -80,6 +101,20 @@ html {
 /* Pricing Section */
 .pricing-heading {
 	text-align: center;
-	margin: 150px 0px 150px 0px;
+	margin: 250px 0px 100px 0px;
+	font-weight: 700;
+}
+
+.pricing-section {
+	margin-bottom: 200px;
+}
+
+/* Footer Section */
+.footer-logo {
+	font-weight: 400;
+	font-size: 27px !important;
+}
+
+.footer-logo span {
 	font-weight: 700;
 }
